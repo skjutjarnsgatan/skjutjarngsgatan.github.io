@@ -1,0 +1,75 @@
+body {
+  font-family: 'Varta', sans-serif;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 5em auto auto;
+  grid-gap: 1em;
+}
+
+header {
+  /* background-color: red; */
+  margin: 0 auto;
+  padding: 1em;
+  width: 80%;
+}
+
+header h1 {
+  text-shadow: 3px 6px rgba(0.1, 0.1, 0.1, 0.05);
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  letter-spacing: 12px;
+}
+
+main {
+  background-color: rgb(245, 245, 245, 0.4);
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  border: 1px solid rgba(1, 1, 1, 0.07);
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  transform: scale(0.6);
+  border-radius: 0.5rem;
+}
+
+.book {
+  width: 14em;
+  margin: 0 auto;
+  line-height: 5em;
+  font-size: 1.1em;
+  border-radius: 0.2rem;
+  text-align: center;
+  border: 1px solid rgba(0.12, 0.12, 0.12, 0.8);
+  margin-bottom: 5em;
+}
+
+footer {
+  /* background-color: yellow; */
+  min-width: 50vh;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 10em;
+}
+
+.social {
+  width: 14em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  font-size: 24px;
+}
+
+.fa {
+  margin-top: 4em;
+  color: grey;
+}
+
+.fa:hover,
+.book:hover {
+  color: burlywood;
+}

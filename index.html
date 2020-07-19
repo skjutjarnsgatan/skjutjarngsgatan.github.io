@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Skjutjärnsgatan</title>
+  <meta name="description" content="Skjutjärnsgatan, Västerås PowerTrio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Daniel Rasmussen">
+
+  <meta property="og:title" content="Skjutjärnsgatan">
+  <meta property="og:type" content="Band-page">
+  <meta property="og:url" content="https://www.skjutjärnsgatan.se">
+  <meta property="og:image" content="https://www.skjutjärnsgatan.se/logo.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <h1>Skjutjärnsgatan</h1>
+  </header>
+  <main>
+    <div id='logo'>
+      <img src='https://i.imgur.com/ZGxa6Dz.png' alt='logo'>
+      <div class='book' style="cursor:pointer;">#tjinga</div>
+    </div>
+  </main>
+  <footer>
+    <div class='social'>
+      <div><a href="https://www.facebook.com/Skjgn/" class="fa fa-facebook"></a></div>
+      <div><a href="https://twitter.com/skjutjarnsgatan" class="fa fa-twitter"></a></div>
+      <div><a href="https://www.youtube.com/channel/UCrE8QyhhfX_RPr_Ol066DZg/featured?disable_polymer=1"
+          class="fa fa-youtube"></a></div>
+      <div><a href="https://www.instagram.com/skjutjarnsgatan/" class="fa fa-instagram"></a></div>
+      <div><a href="https://soundcloud.com/skjutjarnsgatan/" class="fa fa-soundcloud"></a></div>
+    </div>
+  </footer>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script>
+    const mailto = document.querySelector('.book');
+    mailto.addEventListener('click', () => {
+      location.href = "mailto:skjutjarnsgatan@gmail.com";
+    })
+
+  </script>
+</body>
+
+</html>
